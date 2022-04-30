@@ -1,0 +1,19 @@
+@use '../abstract/sizing' as *; 
+@use '../abstract/color' as *
+
+.mn-c-button
+{
+	border-radius: 0px;
+	border-width: 1px;
+
+	&.primary
+	{
+		border-color: $monared-n1;
+	}
+
+	&.mn-medium {
+			width: calc(2 * $bs);
+			height: calc(8 * $bs);
+	}
+}
+
