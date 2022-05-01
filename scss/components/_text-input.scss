@@ -1,0 +1,26 @@
+@use '../abstract/sizing' as *; 
+@use '../abstract/color' as *;
+
+.mn-c-textinput {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+
+	> * {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	input {
+		border-width: 1px;
+		border-style: solid;
+		border-color: $monablue-2;
+		width: calc(20 * $bs);
+		height: calc(2 * $bs);
+		box-sizing: border-box;
+
+		&::active {
+			border-color: $monablue-0;
+		}
+	}
+}
