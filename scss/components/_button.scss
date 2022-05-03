@@ -18,7 +18,7 @@
 	
 	&.mn-is-primary {
 		background-color: $monablue-1;
-		color: $monagold-1;
+		color: $monablue-3;
 
 		&:hover {
 			background-color: $monablue-0;
@@ -34,6 +34,7 @@
 		border-width: 1px;	
 		border-color: $monablue-2;
 		background-color: $monablue-3;
+		color: $monablue-1;
 
 		&:hover {
 			background-color: $monablue-2;

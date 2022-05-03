@@ -1,9 +1,13 @@
+@use "../scss/base/core";
 @use "../scss/base/reset";
 @use "../scss/abstract/typography";
 @use "../scss/abstract/color" as *;
 
 @use "../scss/components/button";
 @use "../scss/components/text-input";
+@use "../scss/components/password-input";
+@use "../scss/components/registration-form";
+@use "../scss/components/modal";
 
 body {
 	min-height: 100vh;
@@ -11,6 +15,6 @@ body {
 	color: $monablue-0;
 }
 
-div > * {
-	margin: 16px;
+#mn-body > * {
+	margin: 32px;
 }
