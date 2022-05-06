@@ -1,0 +1,45 @@
+@use '../abstract/color' as *;
+
+header {
+	position: fixed;
+	top: 0px;
+	width: 100vw;
+	transition: 0.3s;
+	background: $monablue-2;
+	z-index: 1;
+
+	a {
+	text-decoration: none;
+	color: inherit;
+	}
+}
+
+header + main {
+	padding-top: 32px;
+}
+
+.mn-c-header-menu 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 8px;
+	gap: 16px;
+}
+
+
+.mn-c-header-link a:hover {
+	color: $monablue-1;
+	transition: 0.1s;
+}
+
+.mn-c-header-link.mn-is-active
+{
+	color: $monablue-1;
+}
+
+.mn-c-header-link.mn-is-inactive
+{
+	color: $monagold-1;
+}
+
